@@ -6,6 +6,16 @@
   --dark-grey: #54585a;
   --light-grey: rgba(184, 184, 185, 0.3);
 }
+/* 
+--rose-fog: #e5c0af;
+--kabul: #60473e;
+--xanadu: #758877;
+--santa-fe: #b06a50;
+--envy: #9aae9c;
+--pearl-bush: #f0eae3;
+--contessa: #c37e6a;
+--givry: #f8e4d2;
+ */
 * {
   margin: 0;
   padding: 0;
@@ -68,28 +78,27 @@
   background-color: var(--white);
   padding: 14px 15px 16px;
   position: relative;
-  left: 15px;
   transform: translateY(-35px);
 }
 
-.hero-text {
-  width: 260px;
-  height: 50px;
-  font-size: 1.8rem;
-}
-
-
 /* H E R O */
 
-.container1{
+.container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
-  
-.cat {
+.hero-image {
   width: 100%;
+  background-color: #eec4b4;
+  display: flex;
+  justify-content: center;
+}
+
+.red-hair-girl {
+  width: 600px;
 }
 
 .hero-text {
@@ -97,20 +106,17 @@
   font-weight: 600;
   font-size: 1.8rem;
   text-align: center;
+  width: 260px;
+  height: 50px;
 }
-
-/* 
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Rubik', sans-serif; */
 
 /* SECTION TEAM */
 
 .second-container {
-  /*width: 320px;
-  height: 504px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .h2-team {
@@ -130,8 +136,6 @@
   width: 290px;
   height: 384;
   text-align: center;
-  padding-left: 20px;
-  padding-bottom: 20px;
 }
 
 /* FORTALEZAS & DEBILIDADES */
@@ -145,14 +149,13 @@
 }
 
 .third-container {
-  /*width: 320px;
-  height: 579px;*/
   background-color: var(--light-grey);
   padding-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-bottom: 15px;
 }
 .third-container-sub {
   display: flex;
@@ -172,21 +175,26 @@
 }
 
 /* QUIENES SOMOS */
+.social-media {
+  color: var(--dark-green);
+}
 
+.social-media i {
+  transform: scale(1.6);
+  padding: 10px 10px 10px 10px;
+}
 
-.aboutus { 
-
+.aboutus {
   display: flex;
   flex-direction: column;
   align-items: center;
-   
+  gap: 20px;
 }
-    
+
 .divh2about {
- display: flex;
- flex-direction: row;
- justify-content:center;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .h2-about {
@@ -197,77 +205,76 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  }
+}
 
 .photocontainer {
-    height: 180px;
-    width: 180px;
-    display:flex;
-    align-content: center;
-    border: 3px solid var(--light-grey);
-    border-radius: 4px ;
-        
-  }
+  height: 180px;
+  width: 180px;
+  display: flex;
+  align-content: center;
+  border: 3px solid var(--light-grey);
+  border-radius: 4px;
+}
 
-  .img {
-   height: auto;
-   width:100%
-       
-  }
+.img {
+  height: auto;
+  width: 100%;
+}
 
-  .nombre {
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    color:var(--black);
-  }
-  
-  .description {
-    font-family:"Rubik", sans-serif;
-    font-size: 1.5rem;
-    color: var(--dark-grey);
-    display: block;
-    text-align: center;
-  }
+.nombre {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--black);
+}
 
- /*FOOTER*/
+.description {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  color: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+  gap: 20px;
+}
 
- .footer{
+/*FOOTER*/
+
+.footer {
   border-top: 0.5px solid var(--dark-grey);
   margin-top: 20px;
   padding: 20px;
 }
 
-  .fecha{
-    color:var(--dark-grey);
-    display: flex;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 20px;
+.fecha {
+  color: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
-.menu-list{
-    color: var(--dark-grey);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+.menu-list {
+  color: var(--dark-grey);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.menu2{
-    list-style:none;
-    padding-inline-start: 0;
-    margin-bottom: 25px;
+.menu2 {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-bottom: 25px;
 }
 
-
-.logo{
-    width: 115.9px;
-    height: 45px;
-    display: flex;
-    margin:auto;
+.logo {
+  width: 115.9px;
+  height: 45px;
+  display: flex;
+  margin: auto;
 }
