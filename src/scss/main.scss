@@ -184,13 +184,16 @@
   }
   
   /* QUIENES SOMOS */
+  
   .social-media {
     color: var(--dark-green);
   }
-  
   .social-media i {
     transform: scale(1.6);
     padding: 10px 10px 10px 10px;
+  }
+  .social-media-link{
+    color: var(--dark-green);
   }
   
   .aboutus {
