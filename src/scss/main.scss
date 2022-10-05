@@ -78,7 +78,6 @@
   background-color: var(--white);
   padding: 14px 15px 16px;
   position: relative;
-  transform: translateY(-35px);
 }
 
 /* H E R O */
@@ -87,12 +86,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   padding-top: 80px;
+  background-color: #eec4b4;
+  height: 370px;
 }
 
 .hero-image {
-  background-color: #eec4b4;
   display: flex;
   justify-content: center;
 }
@@ -118,6 +117,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 15px;
+  margin-top: 50px;
 }
 
 .h2-team {
