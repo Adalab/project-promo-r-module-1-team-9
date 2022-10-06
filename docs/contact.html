@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LAS SEMÁNTICAS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Rubik:wght@500&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="./assets/css/main.css"/>
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
     <header class="header">
@@ -20,33 +21,105 @@
         <h1 class="title">LAS SEMÁNTICAS</h1>
         <nav>
           <ul class="menu">
-            <li class="menu-item"><a class="link" href="./index.html#team">EQUIPO</a></li>
+            <li class="menu-item">
+              <a class="link" href="./index.html#team">EQUIPO</a>
+            </li>
             <li class="menu-item">
               <a class="link" href="./index.html#aboutus">QUIENES SOMOS</a>
             </li>
-            <li class="menu-item"><a class="link" href="./contact.html">CONTACTO</a></li>
+            <li class="menu-item">
+              <a class="link" href="./contact.html">CONTACTO</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>FORMULARIO DE CONTACTO</main>
-    <footer>
-        <h6 class="fecha">Las Semánticas © 2022</h6>
-        <nav>
-            <ul class="menu2">
-                <li><a class="menu-list" href="#">EQUIPO</a></li>
-                <li><a class="menu-list" href="#">QUIÉNES SOMOS</a></li>
-                <li><a class="menu-list" href="#">CONTACTO</a></li>
-            </ul>
-        </nav>
-        <img class="logo" src="https://adalab.es/wp-content/uploads/2021/05/logo-adalab.svg" alt="logo Adalab">
+    <main>
+      <section class="container-contact">
+        <div class="hero-image">
+          <img
+            class="contact-img"
+            src="./assets/images/hero-contact.jpg"
+            alt="image of a desk"
+          />
+        </div>
+      </section>
+      <section class="container-main">
+        <h1 class="contact">contacto</h1>
+        <p class="lorem-contact">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
+          rerum fugit eligendi rem adipisci quod delectus tenetur atque, eius
+          soluta necessitatibus?
+        </p>
+        <p class="lorem-contact-sub">
+          Todos los campos marcados con <span class="asterisc">*</span> son
+          obligatorios.
+        </p>
+
+        <form action="/signup" method="POST">
+          <fieldset class="form">
+            <label class="label" for="name"
+              >Nombre completo <span class="asterisc">*</span>
+            </label>
+            <input
+              class="input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre..."
+            />
+
+            <label class="label" for="email"
+              >Email <span class="asterisc">*</span></label
+            >
+            <input
+              class="input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nombre.apellido@gmail.com"
+            />
+
+            <label class="label" for="tel"
+              >Teléfono <span class="asterisc">*</span></label
+            >
+            <input
+              class="input"
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="Ej: 123456789"
+            />
+
+            <label class="label" for="message"
+              >Mensaje <span class="asterisc">*</span></label
+            >
+            <textarea
+              class="input msg"
+              type="message"
+              id="message"
+              name="message"
+              placeholder="¿Qué necesitas?"
+            ></textarea>
+            <input class="input send" type="submit" value="ENVIAR" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <h6 class="fecha">Las Semánticas © 2022</h6>
+      <nav>
+        <ul class="menu2">
+          <li><a class="menu-list" href="#">EQUIPO</a></li>
+          <li><a class="menu-list" href="#">QUIÉNES SOMOS</a></li>
+          <li><a class="menu-list" href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <img
+        class="logo"
+        src="https://adalab.es/wp-content/uploads/2021/05/logo-adalab.svg"
+        alt="logo Adalab"
+      />
     </footer>
-</body>
-    </html>
-
-
-
-
-
-
-
+  </body>
+</html>

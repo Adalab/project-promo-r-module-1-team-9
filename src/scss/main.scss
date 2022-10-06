@@ -94,6 +94,88 @@
   width: 320px;
   height: 250px;
 }
+
+.container-contact {
+  background-color: #fee0d6;
+}
+.contact-img {
+  width: 320px;
+  margin-top: 100px;
+}
+
+.contact {
+  color: var(--dark-green);
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.lorem-contact {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: var(--dark-grey);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.lorem-contact-sub {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: var(--dark-grey);
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.asterisc {
+  color: var(--aqua);
+}
+
+.form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  border: none;
+}
+.label {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.input {
+  height: 30px;
+  width: 290px;
+  padding: 14px 10px 13px 11px;
+  border: solid 1px var(--dark-grey);
+}
+::placeholder {
+  color: rgb(181, 176, 176);
+}
+
+.msg {
+  height: 100px;
+  font-family: "Open Sans";
+}
+.send {
+  background-color: var(--dark-green);
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  align-items: center;
+  padding-bottom: 35px;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 40px;
+}
+
+.msg {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
 .rectangle {
   width: 290px;
   height: 80px;
