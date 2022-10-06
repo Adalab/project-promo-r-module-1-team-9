@@ -47,7 +47,7 @@
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   height: 60px;
-  padding: 15px 80px;
+  padding: 20px 80px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -299,13 +299,24 @@
     background-color: var(--dark-green);
     width: 100%;
     justify-content: space-between;
+    margin-top: 6px;
+  }
+  .nav {
+    margin-right: 30px;
   }
   .menu-item {
     padding: 0px 10px;
   }
-  .header {
-  }
+
   .rectangle {
-    transform: translateX(-100px);
+    left: -120px;
+    top: -30px;
+    width: 420px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .hero-text {
+    text-align: left;
+    width: 100%;
   }
 }
