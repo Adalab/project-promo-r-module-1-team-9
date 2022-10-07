@@ -40,7 +40,9 @@
   display: flex;
   flex-direction: column;
 }
-
+.semantics {
+  text-decoration: none;
+}
 .title {
   background-color: var(--dark-green);
   opacity: 0.95;
@@ -304,7 +306,7 @@
   align-items: center;
 }
 .contact-img {
- /*  width: 320px; */
+  width: 320px;
   margin-top: 100px;
 }
 
@@ -409,13 +411,21 @@
   .nav {
     margin-right: 30px;
   }
+  .container1 {
+    height: 430px;
+  }
+  .red-hair-girl {
+    width: 480px;
+    height: 380px;
+    margin-top: -30px;
+  }
   .menu-item {
     padding: 0px 10px;
   }
-  
+
   .rectangle {
-    left: -120px;
-    top: -30px;
+    left: -133px;
+    top: -67px;
     width: 420px;
     height: 70px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -426,7 +436,6 @@
   }
   .second-container {
     height: 303px;
-    margin-top: 0;
   }
   .h2-team {
     padding-top: 40px;
@@ -443,7 +452,7 @@
     align-items: center;
   }
   .aboutus {
-    flex-direction: column; 
+    flex-direction: column;
   }
   .container-cv {
     flex-direction: row;
@@ -460,7 +469,7 @@
     width: 44.2rem;
   }
   .right {
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: flex-start;
   }
   .p-right {
@@ -472,7 +481,6 @@
   }
   .left .nombre {
     text-align: left;
-    
   }
   .description {
     display: flex;
@@ -486,19 +494,20 @@
   .desc-right {
     justify-content: flex-end;
     align-items: flex-end;
- }
+  }
   .photocontainer {
     height: 206px;
     width: 206px;
   }
-  
+
   .contact-img {
-     margin-top: 60px;
-   }
-   .lorem-contact {
+    margin-top: 60px;
+    width: 600px;
+  }
+  .lorem-contact {
     width: 442px;
-   }
-   .container-contact2 {
+  }
+  .container-contact2 {
     margin-left: 163px;
     margin-right: 163px;
   }
@@ -514,7 +523,6 @@
 /* D E S K T O P */
 
 @media all and (min-width: 1200px) {
-
   .container-cv {
     flex-direction: row;
     width: 100%;
@@ -533,12 +541,11 @@
     margin-left: 299px;
     margin-right: 299px;
     align-items: flex-start;
-   /*  flex-wrap: wrap; */
-    justify-content: center ;
+    justify-content: center;
   }
   .lorem-contact {
     width: 600px;
-   }
+  }
 
   .input1 {
     width: 601px;
