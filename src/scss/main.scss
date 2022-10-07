@@ -180,13 +180,6 @@
   line-height: 3;
 }
 
-#team {
-  scroll-margin-top: 30px;
-}
-#aboutus {
-  scroll-margin-top: 80px;
-}
-
 /* QUIENES SOMOS */
 
 .social-media {
@@ -605,5 +598,11 @@
   }
   .msg {
     width: 601px;
+  }
+  #team {
+    scroll-margin-top: 30px;
+  }
+  #aboutus {
+    scroll-margin-top: 80px;
   }
 }
