@@ -76,7 +76,12 @@
   font-size: 1.5rem;
   text-transform: uppercase;
 }
-
+#team {
+  scroll-margin-top: 100px;
+}
+#aboutus {
+  scroll-margin-top: 120px;
+}
 /* H E R O */
 
 .container1 {
@@ -422,6 +427,13 @@
   }
   .menu-item {
     padding: 0px 10px;
+  }
+
+  #team {
+    scroll-margin-top: 30px;
+  }
+  #aboutus {
+    scroll-margin-top: 80px;
   }
 
   .rectangle {
