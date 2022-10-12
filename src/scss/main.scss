@@ -14,6 +14,7 @@
   --black: #000000;
   --dark-grey: #54585a;
   --light-grey: rgba(184, 184, 185, 0.3);
+  --peach-bkg: #fee0d6;
 }
 
 * {
@@ -43,9 +44,7 @@ html {
   display: flex;
   flex-direction: column;
 }
-.semantics {
-  text-decoration: none;
-}
+
 .title {
   background-color: var(--dark-green);
   opacity: 0.95;
@@ -56,6 +55,25 @@ html {
   padding: 20px 80px;
   text-align: center;
   text-transform: uppercase;
+}
+
+a {
+  position: relative;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(137, 215, 194);
+  height: 2px;
+  bottom: -4px;
+  width: 0;
+  left: 0px;
+  transition: 0.3s;
+}
+
+.link:hover:after {
+  width: 100%;
 }
 
 .menu {
@@ -306,10 +324,18 @@ html {
   margin: auto;
 }
 
+.menu-list:hover {
+  color: rgb(139, 215, 186);
+}
+
 /* C O N T A C T */
 
+.semantics {
+  text-decoration: none;
+}
+
 .container-contact1 {
-  background-color: #fee0d6;
+  background-color: var(--peach-bkg);
   display: flex;
   flex-direction: column;
   align-items: center;
