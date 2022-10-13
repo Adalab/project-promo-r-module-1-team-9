@@ -64,7 +64,7 @@ a {
 .link:after {
   content: "";
   position: absolute;
-  background-color: rgb(137, 215, 194);
+  background-color: var(--dark-green);
   height: 2px;
   bottom: -4px;
   width: 0;
@@ -442,6 +442,9 @@ a {
     width: 100%;
     justify-content: space-between;
     margin-top: 6px;
+  }
+  .link:after {
+    background-color: rgb(137, 215, 194);
   }
   .nav {
     margin-right: 30px;
