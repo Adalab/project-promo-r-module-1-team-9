@@ -15,8 +15,10 @@
   --dark-grey: #54585a;
   --light-grey: rgba(184, 184, 185, 0.3);
   --peach-bkg: #fee0d6;
+  --twitter-color: #1da1f2;
+  --linkedin-color: #0072b1;
+  --envelop-color: #ea4335;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -210,6 +212,18 @@ a {
 
 .social-media {
   color: var(--dark-green);
+}
+.fa-twitter:hover {
+  color: var(--twitter-color);
+}
+.fa-github-alt:hover {
+  color: var(--black);
+}
+.fa-linkedin:hover {
+  color: var(--linkedin-color);
+}
+.fa-envelope:hover {
+  color: var(--envelop-color);
 }
 .social-media i {
   transform: scale(1.6);
