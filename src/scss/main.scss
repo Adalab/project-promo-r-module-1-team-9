@@ -396,7 +396,7 @@ a {
   font-size: 1.2rem;
   color: var(--dark-grey);
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 3rem;
 }
 .asterisc {
   color: var(--aqua);
@@ -404,15 +404,23 @@ a {
 
 .form {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
   border: none;
 }
 .label {
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+.label__container {
+  display: flex;
+  flex-direction: column;
+}
+.label__container-sub {
+  display: flex;
+  flex-direction: column;
 }
 .input {
   height: 45px;
