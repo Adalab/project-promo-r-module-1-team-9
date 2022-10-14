@@ -63,11 +63,11 @@
     flex-direction: column;
     border: none;
   }
-  .label {
+  .label{
     padding-bottom: 5px;
     padding-top: 5px;
-  }
-  
+    text-align: left;
+  }  
   .label__container {
     display: flex;
     flex-direction: column;
@@ -122,8 +122,15 @@
     margin-left: 163px;
     margin-right: 163px;
   }
+  .form-right{
+    display: flex;
+    justify-content: flex-end;
+  }
   .input {
-    width: 442px;
+    width: 250px;
+  }
+  .send{
+    width: 50%;
   }
 }
 
@@ -139,11 +146,21 @@
     margin-right: 299px;
     align-items: flex-start;
     justify-content: center;
+    align-items: center;
+  }
+  .label__together{
+    display: flex;
+    justify-content: space-between;
+  }
+  .label__container-sub{
+    display: flex;
   }
   .lorem-contact {
     width: 600px;
   }
-
+  .send{
+    align-items: flex-end;
+  }
   .input1 {
     width: 601px;
   }
