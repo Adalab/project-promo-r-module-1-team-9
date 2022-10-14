@@ -17,6 +17,7 @@
 
 .menu-list {
   color: var(--dark-grey);
+  opacity: 0.75;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   display: flex;
@@ -45,7 +46,41 @@
 /* T A B L E T */
 
 @media all and (min-width: 768px) {
-
+  .footer {
+    padding: 2.4rem 0.6rem 0 0.6rem;
+  }
+  .nav-footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 130px;
+    margin-right: 45px;
+  }
+  .fecha {
+    justify-content: left;
+    margin-left: 45px;
+  }
+  .menu2 {
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+  }
+  .menu-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: right;
+  }
+  .logo-footer-container {
+    display: flex;
+    height: 5px;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -120px;
+    margin-left: 45px;
+  }
 }
 
 /* D E S K T O P */
