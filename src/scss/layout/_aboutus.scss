@@ -1,0 +1,155 @@
+.social-media {
+    color: var(--dark-green);
+  }
+  .fa-twitter:hover {
+    color: var(--twitter-color);
+  }
+  .fa-github-alt:hover {
+    color: var(--black);
+  }
+  .fa-linkedin:hover {
+    color: var(--linkedin-color);
+  }
+  .fa-envelope:hover {
+    color: var(--envelop-color);
+  }
+  .social-media i {
+    transform: scale(1.6);
+    padding: 10px 10px 10px 10px;
+  }
+  .social-media-link {
+    color: var(--dark-green);
+  }
+  
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .divh2about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .h2-about {
+    font-family: "Rubik", sans-serif;
+    font-size: 2.4rem;
+    color: var(--dark-green);
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .container-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .photocontainer {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-content: center;
+    border: 3px solid var(--light-grey);
+    border-radius: 4px;
+  }
+  
+  .img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .nombre {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--black);
+  }
+  
+  .description {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5rem;
+    color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 20px;
+  }
+  
+  /* T A B L E T */
+
+@media all and (min-width: 768px) {
+  .aboutus {
+    flex-direction: column;
+  }
+  .container-cv {
+    flex-direction: row;
+    width: 100%;
+    padding: 0 44px 20px 44px;
+  }
+  .left {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .p-left {
+    text-align: left;
+    width: 44.2rem;
+  }
+  .right {
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .p-right {
+    text-align: right;
+    width: 44.2rem;
+  }
+  .img-right {
+    order: 1;
+  }
+  .left .nombre {
+    text-align: left;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .desc-left {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .desc-right {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .photocontainer {
+    height: 206px;
+    width: 206px;
+  }
+
+}
+
+/* D E S K T O P */
+
+@media all and (min-width: 1200px) {
+  .container-cv {
+    flex-direction: row;
+    width: 100%;
+    padding: 0 138px 20px 138px;
+  }
+  .photocontainer {
+    height: 278px;
+    width: 278px;
+  }
+
+
+}

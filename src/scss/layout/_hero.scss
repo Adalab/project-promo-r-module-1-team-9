@@ -1,0 +1,76 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    background-color: #eec4b4;
+    height: 370px;
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .red-hair-girl {
+    width: 320px;
+    height: 250px;
+  }
+  
+  .rectangle {
+    width: 290px;
+    height: 80px;
+    background-color: var(--white);
+    padding: 14px 15px 16px;
+    position: relative;
+  }
+  
+  .hero-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 260px;
+    height: 50px;
+  }
+
+  /* T A B L E T */
+
+@media all and (min-width: 768px) {
+  .container1 {
+    height: 430px;
+  }
+  .red-hair-girl {
+    width: 480px;
+    height: 380px;
+    margin-top: -30px;
+  }
+
+  #team {
+    scroll-margin-top: 30px;
+  }
+  #aboutus {
+    scroll-margin-top: 80px;
+  }
+
+  .rectangle {
+    left: -133px;
+    top: -60px;
+    width: 420px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .hero-text {
+    text-align: left;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+
+}
+
+ /* D E S K T O P */
+
+ @media all and (min-width: 1200px) {
+
+}
