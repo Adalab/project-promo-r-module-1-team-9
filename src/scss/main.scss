@@ -459,6 +459,9 @@ a {
     width: 100%;
     background-color: var(--dark-green);
   }
+  .title {
+    padding: 2rem 4.2rem;
+  }
   .menu {
     background-color: var(--dark-green);
     width: 100%;
@@ -587,7 +590,7 @@ a {
     width: 442px;
   }
   .footer {
-    padding-bottom: 0;
+    padding: 2.4rem 0.8rem 5.6rem 0.6rem;
   }
   .nav-footer {
     display: flex;
@@ -629,6 +632,9 @@ a {
 /* D E S K T O P */
 
 @media all and (min-width: 1200px) {
+  .title {
+    padding: 2rem 26rem;
+  }
   .container-cv {
     flex-direction: row;
     width: 100%;
@@ -670,5 +676,9 @@ a {
   }
   #aboutus {
     scroll-margin-top: 80px;
+  }
+  .footer {
+    padding-left: 9.5rem;
+    padding-right: 9rem;
   }
 }
