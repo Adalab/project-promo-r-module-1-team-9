@@ -11,7 +11,6 @@
 
 .title {
   background-color: var(--dark-green);
-  opacity: 0.95;
   color: var(--white);
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
@@ -44,7 +43,7 @@ a {
   background-color: var(--aqua);
   opacity: 0.9;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 45px;
   align-items: center;
 }
@@ -78,12 +77,11 @@ a {
     background-color: var(--dark-green);
   }
   .title {
-    padding: 2rem 4.2rem;
+    padding: 2rem 4.5rem;
   }
   .menu {
     background-color: var(--dark-green);
     width: 100%;
-    justify-content: space-between;
     margin-top: 6px;
   }
   .menu-item {
@@ -97,10 +95,16 @@ a {
   }
 }
 
- /* D E S K T O P */
+/* D E S K T O P */
 
 @media all and (min-width: 1200px) {
   .title {
-    padding: 2rem 26rem;
+    padding: 2rem 14.2rem;
+  }
+  .menu {
+    padding: 0 13.8rem;
+  }
+  .link {
+    padding: 0 1.8rem;
   }
 }
