@@ -1,7 +1,8 @@
 .header {
   position: fixed;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
+  background-color: var(--dark-green);
 }
 
 .column {
@@ -104,3 +105,4 @@ a {
     padding: 2rem 26rem;
   }
 }
+

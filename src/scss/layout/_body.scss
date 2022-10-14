@@ -1,0 +1,9 @@
+@media all and (min-width:1200px) {
+
+    .centralcolumn {             /*añado este div para crear una columna central que no se expanda más*/
+       max-width: 1280px;
+       margin-left:auto;
+       margin-right:auto;
+      
+    }
+  }
