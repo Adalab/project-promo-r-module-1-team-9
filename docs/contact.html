@@ -46,30 +46,39 @@
 
         <p class="lorem-contact-sub">Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.</p>
       </section>
-
       <form class="form" action="https://formspree.io/f/maykbpzg" method="POST">
-        <label class="label" for="name">Nombre completo <span class="asterisc">*</span> </label>
-        <input class="input input1" type="text" id="name" name="name" placeholder="Nombre..." required />
         <div class="label__container">
           <div class="label__container-sub">
-            <label class="label" for="email">Email <span class="asterisc">*</span></label>
-            <input class="input input2" type="email" id="email" name="email" placeholder="nombre.apellido@gmail.com" required />
+            <label class="label" for="name">Nombre completo <span class="asterisc">*</span> </label>
+            <input class="input input1" type="text" id="name" name="name" placeholder="Nombre..." required />
           </div>
-          <label class="label" for="tel">Teléfono <span class="asterisc">*</span></label>
-          <input class="input input3" type="tel" id="tel" name="tel" placeholder="Ej: 123456789" />
+          <div class="label__together">
+            <div class="label__container-sub">
+              <label class="label" for="email">Email <span class="asterisc">*</span></label>
+              <input class="input input2" type="email" id="email" name="email" placeholder="nombre.apellido@gmail.com" required />
+            </div>
+            <div class="label__container-sub">
+              <label class="label" for="tel">Teléfono <span class="asterisc">*</span></label>
+              <input class="input input3" type="tel" id="tel" name="tel" placeholder="Ej: 123456789" />
+            </div>
+          </div>
+          <div class="label__container-sub">
+            <label class="label" for="message">Mensaje <span class="asterisc">*</span></label>
+            <textarea
+              class="input msg"
+              type="message"
+              id="message"
+              name="message"
+              placeholder="¿Qué necesitas?"
+              cols="30"
+              rows="8"
+              required
+            ></textarea>
+          </div>
+          <div class="form-right">
+            <input class="input send" type="submit" value="ENVIAR"/>
+          </div>
         </div>
-        <label class="label" for="message">Mensaje <span class="asterisc">*</span></label>
-        <textarea
-          class="input msg"
-          type="message"
-          id="message"
-          name="message"
-          placeholder="¿Qué necesitas?"
-          cols="30"
-          rows="8"
-          required
-        ></textarea>
-        <input class="input send" type="submit" value="ENVIAR" />
       </form>
     </main>
     <footer class="footer">
