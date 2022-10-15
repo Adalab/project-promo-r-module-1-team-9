@@ -1,133 +1,113 @@
 .semantics {
   text-decoration: none;
 }
-
-.container-contact1 {
-  background-color: var(--peach-bkg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contact-img {
-  width: 320px;
-  margin-top: 100px;
-}
-
-.container-contact2 {
-  display: flex;
-  flex-direction: column;
-  margin: 15px;
-  align-items: center;
-}
-
+.container-contact1,
+.container-contact2,
 .form {
   display: flex;
   flex-direction: column;
-  margin: 15px;
   align-items: center;
 }
-
+.container-contact1 {
+  background-color: var(--peach-bkg);
+}
+.contact-img {
+  width: 32.7rem;
+  margin-top: 10rem;
+}
+.container-contact2 {
+  margin: 1.5rem;
+}
 .contact {
   color: var(--dark-green);
   font-size: 2.4rem;
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 3rem 0;
 }
-
-.lorem-contact {
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.6rem;
-  color: var(--dark-grey);
-  width: 290px;
-}
+.lorem-contact,
 .lorem-contact-sub {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
   color: var(--dark-grey);
-  padding-top: 30px;
-  padding-bottom: 3rem;
+}
+.lorem-contact {
+  font-size: 1.6rem;
+  width: 29rem;
+}
+.lorem-contact-sub {
+  font-size: 1.2rem;
+  padding: 3rem 0;
 }
 .asterisc {
   color: var(--aqua);
 }
-
 .form {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
   border: none;
+  margin: 1.5rem;
 }
 .label {
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding: 1.3rem 0 0.5rem;
   text-align: left;
 }
-.label__container {
-  display: flex;
-  flex-direction: column;
-}
+.label__container,
 .label__container-sub {
   display: flex;
   flex-direction: column;
 }
 .input {
-  height: 45px;
-  width: 290px;
-  padding: 14px 10px 13px 11px;
-  border: solid 1px var(--dark-grey);
+  height: 4.5rem;
+  width: 29rem;
+  padding: 1.4rem 1rem;
 }
 ::placeholder {
   color: rgb(181, 176, 176);
 }
-
+.label,
+.input,
 .msg {
-  height: 105px;
-  font-family: "Open Sans";
-  margin-bottom: 20px;
   font-size: 1.4rem;
+}
+.form,
+.send,
+.msg {
+  font-family: "Open Sans", sans-serif;
+}
+.msg {
+  height: 10.5rem;
+  margin-bottom: 2rem;
 }
 .send {
   background-color: var(--dark-green);
   color: var(--white);
-  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   align-items: center;
-  padding-bottom: 35px;
-  border-radius: 5px;
+  padding-bottom: 3.5rem;
+  border-radius: 0.5rem;
   border-style: none;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 /* T A B L E T */
 
 @media all and (min-width: 768px) {
   .contact-img {
-    margin-top: 60px;
-    width: 600px;
+    margin-top: 6rem;
+    width: 60rem;
   }
-  .lorem-contact {
-    width: 442px;
+  .lorem-contact,
+  .input {
+    width: 44.2rem;
   }
   .container-contact2 {
-    margin-left: 163px;
-    margin-right: 163px;
-  }
-  .container-contact3 {
-    margin-left: 163px;
-    margin-right: 163px;
+    margin: 0 16.3rem;
   }
   .form-right {
     display: flex;
     justify-content: flex-end;
-  }
-  .input {
-    width: 250px;
+    margin: 1.3rem 0 1.3rem 0;
   }
   .send {
     width: 50%;
@@ -143,16 +123,17 @@
 /* D E S K T O P */
 
 @media all and (min-width: 1200px) {
-  .container-contact2 {
-    margin-left: 299px;
-    margin-right: 299px;
+  .container-contact2,
+  .form {
+    margin: 0 29.9rem;
   }
   .form {
-    margin-left: 299px;
-    margin-right: 299px;
     align-items: flex-start;
     justify-content: center;
     align-items: center;
+  }
+  .form-right {
+    margin: 1.3rem 0 8rem;
   }
   .label__together {
     display: flex;
@@ -162,27 +143,19 @@
     display: flex;
   }
   .lorem-contact {
-    width: 600px;
+    width: 60rem;
   }
   .send {
     align-items: flex-end;
   }
-  .input1 {
-    width: 601px;
+  .input1,
+  .msg {
+    width: 60.1rem;
   }
   .input2 {
-    width: 395px;
+    width: 39.5rem;
   }
   .input3 {
-    width: 162px;
-  }
-  .msg {
-    width: 601px;
-  }
-  #team {
-    scroll-margin-top: 30px;
-  }
-  #aboutus {
-    scroll-margin-top: 80px;
+    width: 16.2rem;
   }
 }
