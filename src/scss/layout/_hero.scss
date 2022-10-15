@@ -2,66 +2,60 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 8rem;
   background-color: #eec4b4;
-  height: 370px;
+  height: 37rem;
 }
-
 .hero-image {
   display: flex;
   justify-content: center;
 }
-
 .red-hair-girl {
-  width: 320px;
-  height: 250px;
+  width: 32rem;
+  height: 25rem;
 }
-
 .rectangle {
-  width: 290px;
-  height: 80px;
+  width: 29rem;
+  height: 8rem;
   background-color: var(--white);
-  padding: 14px 15px 16px;
-  // position: relative;
+  padding: 1.4rem 1.5rem 1.6rem;
 }
-
 .hero-text {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
   text-align: center;
-  width: 260px;
-  height: 50px;
+  width: 26rem;
+  height: 5rem;
 }
 
 /* T A B L E T */
 
 @media all and (min-width: 768px) {
   .container1 {
-    height: 430px;
+    height: 43rem;
   }
   .red-hair-girl {
-    width: 480px;
-    height: 380px;
-    margin-top: -30px;
+    width: 48rem;
+    height: 38rem;
+    margin-top: -3rem;
   }
 
   #team {
-    scroll-margin-top: 30px;
+    scroll-margin-top: 5rem;
   }
   #aboutus {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 8rem;
   }
-
   .rectangle {
-    width: 420px;
-    height: 70px;
+    width: 42rem;
+    height: 7rem;
     background-color: rgba(255, 255, 255, 0.6);
     transform: translate(-13rem, -6rem);
   }
   .hero-text {
     text-align: left;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     width: 100%;
   }
 }
@@ -70,6 +64,6 @@
 
 @media all and (min-width: 1200px) {
   .rectangle {
-    transform: translate(-24.5rem, -6rem);
+    transform: translate(-28.5rem, -6rem);
   }
 }
