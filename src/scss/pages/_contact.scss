@@ -109,13 +109,32 @@
     justify-content: flex-end;
     margin: 1.3rem 0 1.3rem 0;
   }
+  // input {
+  //   cursor: pointer;
+  // }
   .send {
     width: 50%;
+    cursor: pointer;
+    // &:hover {
+    //   color: var(--dark-green);
+    //   background-color: var(--white);
+    //   border: 1px solid var(--dark-green);
+    //   font-weight: bold;
+    // }
     &:hover {
-      color: var(--dark-green);
-      background-color: var(--white);
-      border: 1px solid var(--dark-green);
-      font-weight: bold;
+      transform: translateY(-0.4rem);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+      &:link {
+        display: inline-block;
+        transition: all 0.2s;
+        position: relative;
+      }
+
+      &:active {
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
     }
   }
 }
